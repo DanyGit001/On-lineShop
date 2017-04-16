@@ -1,0 +1,37 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb6cd1+0,4172b7+100&0.7+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(187,108,209,0.7) 0%, rgba(65,114,183,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(187,108,209,0.7) 0%,rgba(65,114,183,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(187,108,209,0.7) 0%,rgba(65,114,183,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3bb6cd1', endColorstr='#b34172b7',GradientType=0 ); /* IE6-9 */
+
+}
+
+header {
+    padding: rem-calc(50 0);
+}
+
+div.navegacion-principal {
+    background-color: $primary-color;
+    margin-bottom: rem-calc(20);
+
+}
+
+.menu {
+    > li {
+        transition: all .3s ease;
+        &:hover {
+            background-color: $secondary-color;
+
+            a {
+                color: $primary-color;
+            }
+        }
+        > a {
+            justify-content: space-around!important;
+            text-transform: uppercase;
+            font-weight: bold;
+            color:white;
+        }
+    }
+}

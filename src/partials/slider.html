@@ -1,12 +1,18 @@
 <div class="row ">
     <div class="column">
-    <div class="orbit" role="region" aria-label="Ultimas promocines" data-orbit>
+    <div class="orbit" role="region" aria-label="Ultimas promocines" data-orbit
+    data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+    
         <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Slide Anterior</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Slide Siguiente</span>&#9654;&#xFE0E;</button>
             <li class="is-active orbit-slide">
                 <img class="orbit-image" src="assets/img/slide_1.jpg">
+            <figcaption class="orbit-caption">Diseña tu camisa</figcaption>
             </li>
             <li class="orbit-slide">
                 <img class="orbit-image" src="assets/img/slide_2.jpg">
+                <figcaption class="orbit-caption">You're the CSS to my HTML!</figcaption>
             </li>
         </ul>
 
