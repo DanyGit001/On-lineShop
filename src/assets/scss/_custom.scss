@@ -35,8 +35,28 @@ div.navegacion-principal {
             justify-content: space-around!important;
             text-transform: uppercase;
             font-weight: bold;
-            color:white;
+            color:$white;
         }
+    }
+}
+
+ul.social-menu {
+    font-size: rem-calc(50);
+    > li {
+        margin-right: rem-calc(10);
+        &.active,
+        &:hover {
+            background-color: transparent;
+        }
+
+        a {
+            padding: 0;
+            &:hover {
+                color:$secondary-color;
+            }
+        }
+
+
     }
 }
 
