@@ -91,3 +91,35 @@ h3 {
     
 }
 }
+
+div.nuestros-productos {
+    background-color: rgba($primary-color, .7);
+    padding: rem-calc(20);
+    margin: rem-calc(20 0);
+
+    h2 {
+        margin: rem-calc(20 0 30 0 );
+    } 
+    div.camisa {
+        background-color: $white;
+        margin-bottom: rem-calc(30);
+        padding-top: rem-calc(5);
+
+        h4 {
+            margin-top: 10px;
+            background-color: $pink;
+            padding: rem-calc(10 0);
+        }
+        p.precio {
+            color:$primary-color;
+            font-size: rem-calc(40);
+            font-weight: bold;
+        }
+        .button {
+            @include button-style($secondary-color, darken($secondary-color, 5) , $primary-color);
+        font-size: rem-calc(20);
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+    }
+}
