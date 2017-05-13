@@ -144,3 +144,47 @@ div.nuestros-productos {
         }
     }
 }
+
+.envia {
+margin-top: rem-calc(30);
+
+.form-container {
+    background-color: $primary-color;
+    padding:rem-calc(30);
+    form {
+        background-color: $white;
+        margin-top: rem-calc(40);
+        padding: rem-calc(40 0 20 0);
+
+legend {
+    font-size: rem-calc(25);
+    color:$primary-color;
+    text-transform: uppercase;
+    font-weight: $global-weight-bold;
+    margin-bottom: rem-calc(20);
+}
+label {
+    text-transform: uppercase;
+}
+.button {
+    text-transform: uppercase;
+    font-weight: $global-weight-bold;
+    border-radius: 0;
+    min-width: rem-calc(150);
+}
+.secondary {
+    color:$primary-color;
+}
+    }
+}
+}
+
+footer {
+    padding: rem-calc(30 0);
+    margin-top: rem-calc(40);
+    background-color: $primary-color;
+    p {
+        font-weight: $global-weight-bold;
+        margin:0;
+    }
+}
